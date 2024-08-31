@@ -42,22 +42,22 @@ Some of the GPU options available that are based on AMD or INTEL offerings, alon
 
 Part of the specification focus has been on defining solutions that can provide a Research, Development and Demonstration Environment for under $10,000 AUD (~7k USD) by purchasing 2nd hand parts and putting it together yourself.  Newer solutions are much faster, but are also significantly more expensive at the time.  Due to the focus on Humanitarian ICT, it is known that most people whose work seeks to support these forms of use-cases, will generally find it difficult to afford even the minimum requirements to do meaningful work in this area.  It is expected that these barriers will be reduced in future, as technology advances further.  For the 2024 work, here's my recommendation.
 
-SPECS: Minimum Target Specifications are as follows and is subject to change,
+**SPECS:** Minimum Target Specifications are as follows and is subject to change,
 
-CPUs: 
+**CPUs:** 
 - Dual XEON. 24 Cores / 48 Threads
 - 2nd Generation Intel Scalable Processors or newer.  https://ark.intel.com/content/www/us/en/ark/products/series/192283/2nd-gen-intel-xeon-scalable-processors.html 
 - Support for AVX, AVX2, AVX512, VNNI, AES-NI, Virtualisation.
 
 NOTE: This Configuration provides enough PCI Express Lanes to support multiple GPUs, however one of the more significant limitations is PCIe 3.0 support only.
 
-RAM: It is suggested that a minimum of 256GB be assumed, whilst 512GB is preferred. Installation configuration to take-advantage of all available Memory Channels is also advised.
+**RAM:** It is suggested that a minimum of 256GB be assumed, whilst 512GB is preferred. Installation configuration to take-advantage of all available Memory Channels is also advised.
 
-GPUS: 
+**GPUS:**
 - nVidia Ampere Architecture
 - Minimum of 72GB of vRAM Recommended.
 
-NOTE: GPUs are required for LLM Models, systems and related software functions. Initial Testing shows that most of the LLMs consume less than 40GB RAM, whilst many are under 10GB. There are much larger LLMs that require more than 120GB of vRAM, requiring more complex and more expensive Hardware.  It is believed that it is likely to be more feasible to run the vast majority of systems locally, and then make use of online systems for these more complex tasks if and/or when required.  
+**NOTE:** GPUs are required for LLM Models, systems and related software functions. Initial Testing shows that most of the LLMs consume less than 40GB RAM, whilst many are under 10GB. There are much larger LLMs that require more than 120GB of vRAM, requiring more complex and more expensive Hardware.  It is believed that it is likely to be more feasible to run the vast majority of systems locally, and then make use of online systems for these more complex tasks if and/or when required.  
 
 GPUs will be consuming the majority of the energy when running and will also generate heat.  Consumer GPUs such as 4090s may not fit into the cases provided for some 2nd hand systems, and may also both produce too much heat and take-up space preventing the installation of additional GPUs, thereby reducing the total amount of vRAM available.  If a LLM model does not have enough vRAM it will not load.  LLMs can be run in System Memory, but are much slower than when operating on GPUs.  nVidia Architectures have developed overtime, and older cards, whilst cheaper, may not support more recent instruction-sets; other 2nd hand cards, designed for data-centre implementations, may not have a cooling solution that is suited for implementation in a workstation.  Whilst i have seen exaples online where 3d printed solutions have been produced, this adds complexity.  
 
@@ -65,38 +65,38 @@ In my case, i found a nVidia a2000 12GB that's used in the system described belo
 
 The benefits of the cards i obtained is that they use less power, have ECC, produce less heat and accumulatively provide 72GB of vRAM (+12GB for the other machine), and therefore fit into the workstation (described below)
 
-Storage:
+**Storage:**
 - NvME: 1 - 2 TB NvME for Operating System
 - 2 x SSD (1TB+) + 2 x SATA3 (large volume) OR alternative configuration.
 
 NOTE: There are considerations about redundancy (in case of drive-failure), means to perform back-ups (onsite/offsite), the volume of information stored, per user; and the size of databases that are able to be run locally (rather than via online sources) and may also be usefully necessary for local AI related applications & Functions.  However, it is also noted that the access speeds for many of the larger objects, is not a significant problem.
 
-Case, PSU, Cooling
+#### Case, PSU, Cooling
 
 The Recommendation is to find an old Workstation made available by Recyclers and 2nd Hand Vendors.  In my case, i've got a Dell Precision 7290, whilst other seemingly good options are available from lenovo, Hewlett Packard and other major vendors, alongside supermicro and other custom builds.  
 
-PSU: 
+**PSU:** 
 - The Configuration noted above is supported by a 1400w power-supply.  A PSU of between 1300w-2000w is recommended.
 - Note: most domestic environments have electricity systems designed for around 2400w (240v/10 Amps).  Overloading can be a hazard.
 
-Power: other,
+**Power:** other,
 - An energy Monitor is helpful to check whether and how much energy is being used by the system.
 - A UPS that can at least ensure a graceful shut-down in case of outage, is recommended.
 - If your location has 'dirty power', a full sinewave UPS or converter is recommended, both to protect the system and to reduce the amount of heat generated by the PSU.
 
-Cooling:
+**Cooling:**
 - The GPUs can easily get hot, and the ability to ensure that there is good ventalation, sufficient air-flow, fans and related considerations is considered essential.  
 - Overheating will result in errors, can result in shut-downs and in some cases also, hardware failure.
 
-Peripheral: Set-up
+**Peripherals:** Set-up
 
 The configuration of the systems on this workstation are mostly designed to operate over the network, as such it can be set-up as a network device.  I presently have it set-up as a workstsation, with dual screens, sound, mic, camera, etc.  It is likely that setting it up as a workstation as it is being developed, is probably the best approach.  
 
-Public Box: Reception
+**Public Box:** Reception
 
 The notion of a 'receptionist' seek to illustrate the idea of a particular role for interactions with 'the public'. In my case, i am using a hp elitedesk 800 g4 i7 SFF PC, with 32GB ram and the a2000 GPU, as noted previously.  The consideration is, that it may be beneficial for security purposees, to separate the systems that may be used by unauthenticated and/or public 'consumers' online; from, the underlying systems, that may in-turn be storing sensitive personal and private information.  By having two machines, this provides a means where an action must be taken before particular resources are potentially made available to an unintended and/or public user via web-services of the AI agent configured to be running on that device.  This device is also thought helpful for then providing authentication support, to enable access to permissioned information on the Webizen local-host. By having a local device that can support this function, it is believed that far more advanced systems can be operated locally, reducing the need for any online resources and related charges.
 
-Note also, that some LLM related functions are able to run jobs on multiple devices, which means the total available vRAM locally, is also increased.
+Note also, that some LLM related functions are able to run jobs on multiple devices, which means the total available vRAM locally, is also increased.  The addition of another device, also helps to support development related testing across multiple devices, although in my set-up i've also got a laptop, phone, etc.  
 
 Networking:
 
