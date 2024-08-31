@@ -4,7 +4,7 @@ This repo is on the 2024 Webizen Local-Host Build.
 
 ## What is Webizen Local-Host? 
 
-Webizen Local-Host is a new type of Computing Platform. 
+Webizen [Local-Host](https://local-host.co/) is a new type of Computing Platform. 
 
 It incorporates a variety of elements, that as am emboidment creates something that is very different to what is currently available in the market, as a form of 'emboidment'.  Whilst the underlying work has been carried out over decades, through which time like-minded individuals have both independently and cooperatively worked to develop various elements, the means to both accomadate recent advancements, challenges and then in-turn (finally) produce the integrated product output, is what this repo is intended to support.
 
@@ -12,7 +12,7 @@ It incorporates a variety of elements, that as am emboidment creates something t
 
 Webizen, has a history amongst a community of remarkable technologists, who are considered fundamentally, to be human rights advocates.  The need to create foundational Humanitarian ICT infrastructure remains, and is expected to be an on-going challenge. Webizen is now being advanced as a for-purpose activity, where specific goals and design requirements are sought to be achieved within this specific emboidment.
 
-As to encourage and support others means to advance similar forms of work, that may not want to be a member of the webizen ecosystem in a more dedicated manner, efforts to support the production of broader community development through local-host.io and related communities has also been created.  Historically, works were undertaken via the effort termed 'web civics' however after a decade this was considered a failure, remaining unable to support the basic needs of even a single person, whilst others exploited and caused harms, whilst failing to deliver the sorts of outcomes sought to be achieved.  This was an expenive undertaking, that was sadly considered, a defeated failure.
+As to encourage and support others means to advance similar forms of work, that may not want to be a member of the webizen ecosystem in a more dedicated manner, efforts to support the production of broader community development through [local-host.io](https://local-host.co) and related communities has also been created.  Historically, works were undertaken via the effort termed 'web civics' however after a decade this was considered a failure, remaining unable to support the basic needs of even a single person, whilst others exploited and caused harms, whilst failing to deliver the sorts of outcomes sought to be achieved.  This was an expenive undertaking, that was sadly considered, a defeated failure.
 
 Webizen is being curated with a relatively much smaller focus, whilst still seeking to maintain supports via the webizen community for outcomes considered necessary for Humanitarian ICT related Human Rights supports, as is fundamental to the needs of all members of our human family, and through us, our means to better address issues in our sociosphere; and both, our relationship and capacities to do good, for our biosphere.
 
@@ -26,9 +26,9 @@ Fundamentally, these systems are to ensure that they are not able to be used wit
 
 ## Innovators - Requirements & Resources
 
-There is a process that seeks to employ considerations relating to duality, where a simultanious effort to produce both supports more broadly via https://local-host.co/ and related channels; as well as, works that are dedicated to webizen specific approaches, is now continuing to be undertaken.  There are specified Hardware Platforms that are sought to be the focus for Webizen works in particular, whilst it is hoped that these works will develop to support components that may not be recommended at this time.
+There is a process that seeks to employ considerations relating to duality, where a simultanious effort to produce both supports more broadly via [Local-Host](https://local-host.co/) and related channels; as well as, works that are dedicated to webizen specific approaches, is now continuing to be undertaken.  There are specified Hardware Platforms that are sought to be the focus for Webizen works in particular, whilst it is hoped that these works will develop to support components that may not be recommended at this time.
 
-Seperately, the recommendations produced through the development of local-host works more broadly may have alternatives not being pursued or prioritised by Webizen, and this is encouraged but also not the focus of the webizen leadership community.
+Seperately, the recommendations produced through the development of [Local-Host](https://local-host.co/) works more broadly may have alternatives not being pursued or prioritised by Webizen, and this is encouraged but also not the focus of the webizen leadership community.
 
 The Webizen Approach is currently focused on the production of Innovator and Developer focused solutions.  It is believed that this will overtime, lead to refining the solution down to an optimised outcome, that should then be functionally supported by systems that have fewer resources.  Presently, the integration is still a RD&D experimental and creative process, where the definitions continue to be unstable in many areas.  The problems and challenges associated with these works are not simply technical but also social.
 
@@ -36,7 +36,7 @@ The Webizen Approach is currently focused on the production of Innovator and Dev
 
 The Local Host / Webizen Workstation Recommendations are defined using the most hardware components most widely supported by the open-source community. Presently, the vast majority of components have been developed for deployment 'on the cloud', whilst other projects have then sought to make them available locally, on traditional computers.
 
-If a participant has an environment that suits the use of rack-mounted systems, there are many benefits, but this is not presently the focus. It is also understood that some of the Apple Mac Mx series systems, in particular the higher-spec'd Mac Studio systems, offer a large amount of vRAM and support for developing apple based ecosystems; however, this is also considered to be an area that Webizen seeks to explore further after the next milestones have been achieved; this may not be the case for local-host.co members.
+If a participant has an environment that suits the use of rack-mounted systems, there are many benefits, but this is not presently the focus. It is also understood that some of the Apple Mac Mx series systems, in particular the higher-spec'd Mac Studio systems, offer a large amount of vRAM and support for developing apple based ecosystems; however, this is also considered to be an area that Webizen seeks to explore further after the next milestones have been achieved; this may not be the case for [Local-Host](https://local-host.co/) members.
 
 Some of the GPU options available that are based on AMD or INTEL offerings, alongside other NPU solutions are also of interest in the future, however for the time-being concerns about the means to ensure software support has been taken into consideration and for the time-being, this has led to the recommendation to use nVIDIA.  
 
@@ -111,4 +111,4 @@ Note also, that some LLM related functions are able to run jobs on multiple devi
 
 This documentation is being developed. As part of this process, is also, work to improve documentation of components as required to help make it easier for people to get the pieces installed and operating.   One such project is the work on [Openlink Software Virtuoso](https://github.com/WebizenAI/OpenlinkDocs) documentation.  Other elements, include works on [local-host.co](https://local-host.co/) related documentation.  Presently, the objective is to get systems working so that the bulk of the work helping people get involved, is made available within the decentralised networking environment produced and made operational as a result of a successful set-up & install.  
 
-A Keybase group has been set-up for the broader local-host project  [link](https://keybase.io/team/local_host) and selected individuals, stakeholders and/or sponsors, may be invited to join webizen. 
+A Keybase group has been set-up for the broader [Local-Host](https://local-host.co/) project  [link](https://keybase.io/team/local_host) and selected individuals, stakeholders and/or sponsors, may be invited to join webizen. 
