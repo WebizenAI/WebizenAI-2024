@@ -98,7 +98,7 @@ The notion of a 'receptionist' seek to illustrate the idea of a particular role 
 
 Note also, that some LLM related functions are able to run jobs on multiple devices, which means the total available vRAM locally, is also increased.  The addition of another device, also helps to support development related testing across multiple devices, although in my set-up i've also got a laptop, phone, etc.  
 
-Networking:
+**Networking:**
 
 - REQUIREMENT: An internet connection that has greater than 20Mbps / 10Mbps is considered necessary
 - RECOMMENDED configuration providing more than 100Mbps / 30Mbps is recommended with at least 1 available static IP.  
