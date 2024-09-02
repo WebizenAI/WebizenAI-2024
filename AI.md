@@ -27,3 +27,7 @@ The focus of these systems is to define operating software that is particularly 
 
 The AI Foundations to these systems, is based upon the use of Semantic Web technologies.  
 
+### Content Processing
+
+A big part of the underlying process and related requirements, is to ensure that there's sufficient information about digital content stored in an appropriate format. This often means processing software to generate the 'metadata' that can then be used by Software Agents.
+
