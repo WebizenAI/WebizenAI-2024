@@ -9,10 +9,9 @@
 - SWAP at least 4 GB, but depends of the host OS. More is better
 - OS amd64 Linux distribution with kernel version 3.10 or later
 
-
 # Windows 
 
-It is presently most likely to be run using Docker and/or PodMan, however the windows server version is being tested on Windows Pro
+It is presently most likely to be run using Docker and/or PodMan.
 
 # QUBES os
 
