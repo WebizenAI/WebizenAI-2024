@@ -27,6 +27,10 @@ The networking methodology seeks to use RDF in a manner simmilar to WebID-TLS|RS
 
 The Usage Paradigm seeks to provide social experiences in relation to URIs that are both permissively available based on agreed permissions between agents; enabling a sort of 'web of data' communications system, that is loosely coupled with applications running locally.  An example of this is demonstrated by [Cimba](https://www.youtube.com/watch?v=IhwAiTOFPrc)
 
+
+https://github.com/user-attachments/assets/0dac0bbf-1207-4640-bc86-de477c7aba61
+
+
 ![cimba](media\cimba_video.mp4)
 
 
