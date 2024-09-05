@@ -29,5 +29,28 @@ The AI Foundations to these systems, is based upon the use of Semantic Web techn
 
 ### Content Processing
 
-A big part of the underlying process and related requirements, is to ensure that there's sufficient information about digital content stored in an appropriate format. This often means processing software to generate the 'metadata' that can then be used by Software Agents.
+A big part of the underlying process and related requirements, is to ensure that there's sufficient information about digital content stored in an appropriate format.
 
+This often means processing software to generate the 'metadata' that can then be used by Software Agents. Historically the term 'metadata' would be mostly defined using RDF, yet the requirements of LLMs may lead to additional requirements. Initial thoughts include how vector data is sought / required, as is for now, unknown.
+
+## Common Store of LLM Models
+
+It is preferred to have a common-store of LLM Models, rather than different programs seeking to store these files (which are generally quite large) in their own application directories, leading to multiple copies of the same files, for no good reason.  
+
+### Agent Interfaces
+
+There's a range of interfaces sought. 
+
+1. HTTP API
+2. Audio
+3. An 'avatar' / character
+4. Gesture Controls
+5. Other Software APIs.
+
+### Local Programming
+
+Its intended that there is alot of use of RDF and logical programming, to define 'stuff'... 
+
+## Advanced
+
+The Software ecology being defined in these works, seeks to create an environment that's suitable for processing high-dimentional functions / data 'jobs'.  This relates to notions such as the 'context' or 'status' of the observer, in social contexts.

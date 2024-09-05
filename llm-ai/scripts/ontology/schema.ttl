@@ -1,0 +1,47 @@
+@prefix llm: <https://example.org/llm#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Define core classes
+  llm:SystemCommand  rdfs:subClassOf rdfs:Command .
+  llm:Verb  rdf:type rdfs:Class .
+  llm:Object  rdf:type rdfs:Class .
+  llm:Parameter  rdf:type rdfs:Class .
+  llm:Modifier  rdf:type rdfs:Class .
+
+# Define properties for SystemCommand
+  llm:SystemCommand  llm:hasVerb  llm:Verb .
+  llm:SystemCommand [ rdfs:domain llm:SystemCommand ; rdfs:range llm:Object ] .
+  llm:SystemCommand  llm:hasParameter [ rdfs:collection-membership rdf:List ] .
+  llm:SystemCommand  llm:hasModifier [ rdfs:collection-membership rdf:List ] .
+
+# Define properties for Verb 
+  llm:Verb  rdfs:label  [ rdfs:literal "Verb" ] .
+
+# Define properties for Object 
+  llm:Object  rdfs:label  [ rdfs:literal "Object (Optional)" ] .
+
+# Define properties for Parameter 
+  llm:Parameter  rdfs:label  [ rdfs:literal "Parameter (Optional)" ] .
+  llm:Parameter  rdfs:subClassOf  [ rdfs:Class ; rdfs:comment "Further categorized into..." ] .
+
+  # Subclasses for Parameter
+  llm:ContentParameter rdfs:subClassOf llm:Parameter .
+  llm:StyleParameter rdfs:subClassOf llm:Parameter .
+  llm:FormattingParameter rdfs:subClassOf llm:Parameter .
+  llm:ControlParameter rdfs:subClassOf llm:Parameter .
+
+  # Define properties for ContentParameter
+  llm:ContentParameter  rdfs:label  [ rdfs:literal "Content Parameter" ] .
+
+  # Define properties for StyleParameter
+  llm:StyleParameter  rdfs:label  [ rdfs:literal "Style Parameter" ] .
+
+  # Define properties for FormattingParameter
+  llm:FormattingParameter  rdfs:label  [ rdfs:literal "Formatting Parameter" ] .
+
+  # Define properties for ControlParameter
+  llm:ControlParameter  rdfs:label  [ rdfs:literal "Control Parameter" ] .
+
+# Define properties for Modifier
+  llm:Modifier  rdfs:label  [ rdfs:literal "Modifier (Optional)" ] .

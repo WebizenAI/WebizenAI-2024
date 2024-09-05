@@ -1,0 +1,100 @@
+{
+    "commands": [
+      {
+        "name": "GREET_USER",
+        "description": "Initiate a friendly and welcoming interaction with the user.",
+        "example": "Hello! How can I assist you today?"
+      },
+      {
+        "name": "REQUEST_CLARIFICATION",
+        "description": "Ask the user for more information or clarification on a vague or unclear query.",
+        "example": "Could you please provide more details on your question?"
+      },
+      {
+        "name": "THANK_USER",
+        "description": "Express gratitude towards the user for their input or feedback.",
+        "example": "Thank you for your feedback!"
+      },
+      {
+        "name": "APOLOGIZE",
+        "description": "Offer an apology if an error or misunderstanding occurs.",
+        "example": "I'm sorry for the mistake. Let me correct that."
+      },
+      {
+        "name": "END_CONVERSATION",
+        "description": "Politely end the conversation.",
+        "example": "Thank you for chatting with me. Have a great day!"
+      },
+      {
+        "name": "GENERATE_RESPONSE",
+        "description": "Produce a response based on the user's input.",
+        "example": "Here is the information you requested..."
+      },
+      {
+        "name": "PROVIDE_EXAMPLE",
+        "description": "Give an example to illustrate a point or concept.",
+        "example": "For instance, if you want to calculate the area of a circle, you would use the formula A = πr²."
+      },
+      {
+        "name": "OFFER_SUGGESTIONS",
+        "description": "Provide suggestions or recommendations based on the user's query.",
+        "example": "You might consider trying these methods..."
+      },
+      {
+        "name": "SUMMARIZE",
+        "description": "Summarize lengthy information into a concise form.",
+        "example": "In summary, the main points are..."
+      },
+      {
+        "name": "EXECUTE_CODE",
+        "description": "Run a piece of code to perform calculations or generate outputs.",
+        "example": "Running the code snippet to compute the result..."
+      },
+      {
+        "name": "LOOKUP_INFORMATION",
+        "description": "Search for specific information within the system's knowledge base.",
+        "example": "Searching for the latest updates on this topic..."
+      },
+      {
+        "name": "RETRIEVE_DATA",
+        "description": "Fetch data from a specified source or database.",
+        "example": "Retrieving data from the specified source..."
+      },
+      {
+        "name": "HANDLE_ERROR",
+        "description": "Manage and resolve errors that occur during interactions.",
+        "example": "An error occurred. Please try again."
+      },
+      {
+        "name": "NOTIFY_ERROR",
+        "description": "Inform the user of an error and provide possible solutions.",
+        "example": "I'm having trouble processing your request. You might try..."
+      },
+      {
+        "name": "REQUEST_FEEDBACK",
+        "description": "Ask the user for feedback on the interaction or response quality.",
+        "example": "How did I do? Your feedback helps me improve."
+      },
+      {
+        "name": "UPDATE_KNOWLEDGE",
+        "description": "Integrate new information into the knowledge base.",
+        "example": "Updating knowledge base with the latest information..."
+      },
+      {
+        "name": "ENSURE_PRIVACY",
+        "description": "Implement measures to protect user privacy and data.",
+        "example": "Your privacy is important. No personal data will be stored."
+      },
+      {
+        "name": "VERIFY_COMPLIANCE",
+        "description": "Check that all actions and responses comply with relevant laws and policies.",
+        "example": "Ensuring compliance with data protection regulations..."
+      },
+      {
+        "name": "DISCLOSE_LIMITATIONS",
+        "description": "Inform the user of any limitations in capabilities or knowledge.",
+        "example": "Please note that my information is up-to-date as of 2023, and I may not have the latest data on this topic."
+      }
+    ]
+  }
+  

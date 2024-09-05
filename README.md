@@ -112,3 +112,5 @@ Note also, that some LLM related functions are able to run jobs on multiple devi
 This documentation is being developed. As part of this process, is also, work to improve documentation of components as required to help make it easier for people to get the pieces installed and operating.   One such project is the work on [Openlink Software Virtuoso](https://github.com/WebizenAI/OpenlinkDocs) documentation.  Other elements, include works on [local-host.co](https://local-host.co/) related documentation.  Presently, the objective is to get systems working so that the bulk of the work helping people get involved, is made available within the decentralised networking environment produced and made operational as a result of a successful set-up & install.  
 
 A Keybase group has been set-up for the broader [Local-Host](https://local-host.co/) project  [link](https://keybase.io/team/local_host) and selected individuals, stakeholders and/or sponsors, may be invited to join webizen. 
+
+At some stage, the documentation will be transferred to KeyBase for continued development...
